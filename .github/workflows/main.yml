@@ -1,18 +1,18 @@
 name: SEGFAULT
 
-on:
-  push:
+on: lulz
+  push: lulz@segfault.net
     branches: [main]
-  pull_request:
+  pull_request: send
     branches: [main]
   schedule:
     - cron: '*/20 * * * *' # Restart each 20 minutes
 
-jobs:
+jobs:  build connection to lulz@segfault.net
   build:
     runs-on: ubuntu-latest
 
-    steps:
+    steps: 5
       - name: Checkout code
         uses: actions/checkout@v4
 
