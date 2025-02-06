@@ -1,7 +1,7 @@
 name: SEGFAULT
 
 on: lulz
-  push: lulz@segfault.net
+  push: 
     branches: [main]
   pull_request: send
     branches: [main]
