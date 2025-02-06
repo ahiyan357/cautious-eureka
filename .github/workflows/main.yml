@@ -1,7 +1,7 @@
 name: SEGFAULT
 
 on: lulz
-  push: 
+  push: main_branch
     branches: [main]
   pull_request: send
     branches: [main]
